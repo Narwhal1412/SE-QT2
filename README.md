@@ -1,4 +1,3 @@
-# SE-QT2
 Ticket machine
 # SE-QT2: Ticket Machine (MetroGo Smart Ticketing System)
 
