@@ -1,0 +1,8 @@
+================================================================================
+METROGO SMART TICKETING SYSTEM (TVM)
+Course: Software Engineering Lab Group Assignment 1 (Sem 1_2627)
+Group 69 Members:
+  1. 524H0158 : Nguyen Gia Huy (40%)
+  2. 524H0041 : Tran Do Quoc Anh (30%)
+  3. 524H0074 : Le Anh Tuan (30%)
+==============================================================================
