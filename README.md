@@ -1,5 +1,5 @@
 Ticket machine
-# SE-QT2: Ticket Machine (MetroGo Smart Ticketing System)
+# SE-QT2: Ticket Machine (MetroGo Smart Ticketing System)::
 
 **Course:** Software Engineering Lab Group Assignment 1 (Sem 1_2627)  
 **Group 69 Members:**
