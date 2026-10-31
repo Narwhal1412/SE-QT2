@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TvmTicketing.Services.TVM">
+    <Position X="0.5" Y="1.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAQAAAAAAAAgAAAAAAAABAAAAAQAAgAAgAAAA=</HashCode>
+      <FileName>Services\TVM.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Controller" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TvmTicketing.Services.TicketController">
+    <Position X="3.0" Y="1.5" Width="2.0" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAACAAQAAQAAAAACAAAAAgAAAgAAAAACAAAAAA=</HashCode>
+      <FileName>Services\TicketController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="CurrentTransaction" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TvmTicketing.Domain.Transaction">
+    <Position X="6.0" Y="0.75" Width="2.0" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAARQAAAAAgCAAACAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Domain\Transaction.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Fare" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Tickets" />
+      <Property Name="Payments" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="TvmTicketing.Domain.Ticket">
+    <Position X="9.25" Y="0.5" Width="2.0" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAQAAIAAAAIAAAAEAAAgBAAAAAgACAA=</HashCode>
+      <FileName>Domain\Ticket.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TvmTicketing.Domain.Fare">
+    <Position X="9.25" Y="3.25" Width="2.0" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAIAAAAAAAAAAAAAgBAAAAAgACAA=</HashCode>
+      <FileName>Domain\Fare.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TvmTicketing.Domain.Payment">
+    <Position X="9.25" Y="5.75" Width="2.0" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAkAAAAAAAAAAAggAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Payment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TvmTicketing.Hardware.TicketPrinter">
+    <Position X="3.25" Y="4.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAQAAAAAAAAAAAAAAAAAAAIAAAAAgAAAAA=</HashCode>
+      <FileName>Hardware\TicketPrinter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TvmTicketing.Services.PaymentService">
+    <Position X="3.25" Y="6.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAEAAAAAAAAAAAAgAAgAAAAAAAAA=</HashCode>
+      <FileName>Services\PaymentService.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Gateway" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TvmTicketing.Services.TransactionRepository">
+    <Position X="1.0" Y="6.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAgAAAAAIAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Services\TransactionRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="TvmTicketing.Payment.IPaymentGateway">
+    <Position X="7.0" Y="6.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABAAAAIAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Payment\IPaymentGateway.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Class Name="TvmTicketing.Payment.CardProcessorGateway">
+    <Position X="5.0" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABAAAAIAAAAAAABAAAAEAAA=</HashCode>
+      <FileName>Payment\CardProcessorGateway.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TvmTicketing.Payment.BankQRAdapter">
+    <Position X="5.0" Y="6.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAABAAAAIAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Payment\BankQRAdapter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TvmTicketing.Payment.WalletGatewayAdapter">
+    <Position X="5.0" Y="8.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAABAAAAIAAAAAAABAAAIAAAA=</HashCode>
+      <FileName>Payment\WalletGatewayAdapter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
