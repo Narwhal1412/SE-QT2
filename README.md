@@ -1,2 +1,2 @@
-# SE-QT2
+# SE-QT2:
 Ticket machine
